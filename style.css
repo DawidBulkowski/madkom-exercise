@@ -1,0 +1,49 @@
+body {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"] {
+    font-size: 2.4em;
+    border: 3px solid #EFEFEF;
+    padding: 15px;
+}
+
+input[type="submit"] {
+    border: 3px solid orange;
+    background-color: #FFC010;
+    padding: 10px 30px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+h4 {
+    border-bottom: 3px solid #EFEFEF;
+    padding: 20px;
+}
+
+.repository {
+    padding: 10px 20px;
+    display: block;
+}
+
+.repository a {
+    text-decoration: underline;
+    color: #333;
+    font-size: 1.3em;
+}
+
+.repository .description {
+    margin: 10px 0 0 0; padding: 0;
+    font-size: 0.9em;
+}
+
+.sort {
+    color: #333;
+    font-size: 0.8em;
+    margin-right: 20px;
+}
+
+.pagination-block { width: 100%; display: block; margin-top: 30px; text-align: center; }
+.pagination { background-color: #EFEFEF; padding: 15px; margin-right: 20px; text-decoration: underline; font-size: 0.9em; color: #333; }
